@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11px" height="10px" viewBox="23 883 11 10" style="transform: rotate(90deg);">
+  <g id="collapse-expand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(23.000000, 883.000000)">
+    <polygon id="chevron2" fill="#666" points="5 5 9.61381517 10 11 8.49778895 7.74976328 4.9999998 11 1.50221105 9.61381517 0"></polygon>
+    <polygon id="chevron1" fill="#666" points="0 5 4.61381517 10 6 8.49778895 2.74976328 4.9999998 6 1.50221105 4.61381517 0"></polygon>
+  </g>
+</svg>

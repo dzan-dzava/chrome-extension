@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" class="tracker-controls-icon">
+  <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="playButton" fill="#333333">
+      <path d="M2,2.00684547 C2,1.45078007 2.38567036,1.22765265 2.86301041,1.50941586 L13.1369896,7.57391747 C13.6136171,7.85526008 13.6143296,8.30562945 13.1369896,8.58076294 L2.86301041,14.5025704 C2.38638292,14.7772932 2,14.5500512 2,13.9931545 L2,2.00684547 Z" id="playIcon"></path>
+    </g>
+  </g>
+</svg>

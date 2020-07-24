@@ -1,0 +1,123 @@
+#timinator-trackers * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+#timinator-trackers {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+  pointer-events: none;
+}
+
+#timinator-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+#timinator-trackers .tracker-buttons {
+  margin-left: 3px;
+}
+#timinator-trackers .add-tracker {
+  width: 58px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  box-shadow: 0 0 6px #ddd;
+  cursor: pointer;
+  pointer-events: auto;
+}
+#timinator-trackers .add-tracker:hover {
+  background-color: #f8f8f8;
+}
+
+#timinator-trackers .tracker-list {
+  display: flex;
+  align-items: flex-end;
+}
+#timinator-trackers .tracker {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  box-shadow: 0 0 6px #ddd;
+  pointer-events: auto;
+}
+#timinator-trackers .tracker:not(:last-child) {
+  margin-right: 3px;
+}
+#timinator-trackers .tracker.is-tracking {
+  border-color: #0073ec;
+}
+#timinator-trackers .tracker-header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  cursor: pointer;
+}
+#timinator-trackers .tracker-controls {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+#timinator-trackers .tracker-controls:hover {
+  background-color: #f8f8f8;
+}
+#timinator-trackers .tracker-controls img {
+  margin-right: 15px;
+}
+#timinator-trackers .tracker-controls span {
+  font-size: 16px;
+  user-select: none;
+}
+#timinator-trackers .tracker-toggle {
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#timinator-trackers .tracker-toggle:hover {
+  background-color: #f8f8f8;
+}
+#timinator-trackers .tracker-toggle img.rotate {
+  transform: rotate(180deg);
+}
+#timinator-trackers .tracker-details {
+  padding: 10px 10px 0;
+  border-top: 1px solid #d9d9d9;
+  background-color: #f8f8f8;
+}
+#timinator-trackers .tracker-details.hidden {
+  display: none;
+}
+#timinator-trackers .tracker-details textarea {
+  width: 100%;
+  height: 162px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  resize: none;
+  font-size: 14px;
+}
+#timinator-trackers .tracker-details textarea:focus {
+  border-color: rgba(47,196,243,.8);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(47,196,243,.3);
+  outline: 0 none;
+}
+#timinator-trackers .details-controls {
+  padding: 15px 0;
+}
+#timinator-trackers .details-controls img {
+  margin: 0 6px;
+  cursor: pointer;
+}
